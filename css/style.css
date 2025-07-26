@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background: #444;
+    color: #fff;
+    padding: 0;
+}
+.container {
+    width: 80%;         
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.main-section .container {
+    display: block; /* zamiast flex */
+}
+p{
+    margin-top: 16px;
+}
+/* LOGO FIRMOWE */
+.logoCamp img {
+    max-width: 100%;
+    height: auto;
+}
+/* MENU GŁÓWNE */
+.main-menu ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.main-menu a:hover {
+    color: #478cbf;
+}
+/* MENU JĘZYKÓW */
+.lang-menu ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.lang-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.lang-menu li a:hover {
+    color: #478cbf;
+}
+.main-section {
+    display: block;
+    padding: 20px 0;
+    border-bottom: #0073e6 1px solid;
+}
+.main-section h2 {
+    color: #0073e6;
+}
+.wip{
+    font-size: 32px;
+    color: #ff0000;
+}
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+footer .container {
+    display: block;
+    text-align: center;
+}
